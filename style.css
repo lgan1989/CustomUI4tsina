@@ -1,0 +1,347 @@
+@-moz-document domain('weibo.com'), url-prefix('http://weibo.com') {
+ 
+	/* 
+ 
+		the code in here only apply to:
+ 
+			-pages on the domain weibo.com
+ 
+			-pages whose URLs start with http://weibo.com
+ 
+	*/
+ 
+}
+ 
+ 
+ 
+/*主体透明*/
+ 
+ 
+ 
+/*新浪认证*/
+ 
+.W_sina_vip { display:none !important; }
+ 
+/*微博相册*/
+ 
+#pl_content_album { display:none !important; }
+ 
+/*加关注推荐层*/
+ 
+div[node-type="suggestedFollows"] { display:none !important; }
+ 
+/*顶部左侧导航条*/
+ 
+li[node-type="plaza"] { display: none !important; }
+ 
+li[node-type="group"] { display: none !important; }
+ 
+li[node-type="app"] { display: none !important; }
+ 
+li[node-type="game"] { display: none !important; }
+ 
+/*首页左侧面板话题*/
+ 
+div[node-type="recommendTopic"] { display: none !important; }
+ 
+/*新版首页左侧边栏*/
+ 
+#pl_leftNav_app { display: none !important; }
+ 
+a[href="http://photo.weibo.com?leftnav&wvr=4"]{ display: none !important; }
+ 
+a[href="http://music.weibo.com?leftnav&wvr=4"]{ display: none !important; }
+ 
+a[href="http://event.weibo.com?leftnav&wvr=4"]{ display: none !important; }
+ 
+a[href="http://vote.weibo.com?leftnav&wvr=4"]{ display: none !important; }
+ 
+a[href="/jx/pic.php?leftnav&wvr=4"]{ display: none !important; }
+ 
+a[href="/pub/top?leftnav&wvr=4"]{ display: none !important; }
+ 
+a[action-type="more"]{ display: none !important; }
+ 
+/*新版首页右侧边栏*/
+ 
+#pl_content_userTips { display: none !important; }
+ 
+/*新版用户微博页*/
+ 
+#pl_leftNav_profileContent { display: none !important; }
+ 
+#pl_relation_hisFollowingsNav { display: none !important; }
+ 
+/*评论页面热门评论*/
+ 
+#pl_content_commentTopNav { display: none !important; }
+
+/*微群*/
+#pl_common_thirdmodule_1005{display:none !important;}
+/*广告*/
+#pl_common_fun{display:none !important;}
+/*心情*/
+#pl_content_mood{display:none !important;}
+/*收藏页面最多收藏*/
+ 
+#pl_content_favoritesTopNav { display: none !important; }
+ 
+/*勋章*/
+ 
+div[node-type="medal"] { display: none !important; }
+ 
+#pl_content_medal { display: none !important; }
+ 
+/*热门话题*/
+ 
+#pl_content_promotetopic { display:none !important; }
+ 
+/*可能感兴趣的人*/
+ 
+ 
+/*关注的话题*/
+ 
+ 
+/*人气用户*/
+ 
+#pl_relation_recommendPopularUsers { display:none !important; }
+ 
+/*我加入的群*/
+ 
+div[name="app10003"] { display:none !important; }
+ 
+/*手机玩转新浪微博 新浪微博意见信箱*/
+ 
+#pl_common_help { display:none !important; }
+ 
+#pl_common_feedback { display:none !important; }
+ 
+/*不良信息曝光*/
+ 
+#pl_common_reportentry { display:none !important; }
+ 
+/*可能感兴趣的应用*/
+ 
+#pl_content_allInOne { display:none !important; }
+ 
+/*广告*/
+ 
+#ads_47 { display:none !important; }
+ 
+#ads_37 { display:none !important; }
+ 
+#ads_36 { display:none !important; }
+ 
+#ads_35 { display: none !important; }
+ 
+/*公告栏*/
+#pl_common_noticeboard{display:none !important;}
+ 
+/*底部通知*/
+#wbim_box{display:none !important;}
+ 
+/*底部模块*/
+ 
+#ads_bottom_1 { display:none !important; }
+ 
+#pl_ad_backFill { display:none !important; }
+ 
+.global_footer { display:none !important; }
+ 
+/* 自己首页圆角左边 */
+#pl_content_hisPersonalInfo .perAll_info {
+-moz-border-radius-topleft: 10px !important;
+-moz-border-radius-topright: 0px !important;
+-moz-border-radius-bottomright: 0px !important;
+-moz-border-radius-bottomleft: 0px !important;
+-webkit-border-radius: 10px 0px 0px 0px !important;
+border-radius: 10px 0px 0px 0px !important;
+}
+/* 他人首页圆角左边 */
+#pl_content_publisherTop{
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 0px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 0px 0px 0px;
+}
+.W_main_c{-webkit-border-radius: 10px 0px 0px 0px;}
+/*圆角*/
+.W_main_narrow_bg {
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
+}
+/*设置皮肤按钮*/
+#pl_content_setskin{
+display:none !important;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
+}
+/*新浪原版输入框title*/
+#pl_content_publisherTop .title{
+font-size:24px;
+color:#5C5C5C;
+font-weight:bold;
+text-shadow: 1px 1px 1px ##ffffff;
+filter: dropshadow(color=##ffffff, offx=2, offy=2);
+background:transparent !important;
+}
+/*新浪原版输入框字数显示*/
+div[node-type="num"]{
+display:none !important;
+font-size:14px;
+color:#333333;
+font-weight:bold;
+text-shadow: 1px 1px 1px ##ffffff;
+filter: dropshadow(color=##ffffff, offx=1, offy=1);
+}
+/*举报与黑名单*/
+#pl_content_hisOperationPlate{display:none !important;}
+/*全部微博;我的味群...*/
+.nfTagB_group{
+display:none !important;
+}
+/**/
+.left_nav{
+display:none !important;
+}
+/*他人页面微博分类*/
+.minifTagB {
+display:none !important;
+}
+/*自己首页微博分类*/
+ul[node-type="feedGroup"]{
+display:none !important;
+}
+/*自己首页更多分类*/
+.interOder {
+display:none !important;
+}
+/*分组块背景色,协调用*/
+div[node-type="groupList"]{
+background:transparent;
+}
+/*缩略图操作*/
+.comment:hover .piclist img{
+opacity:1;
+max-height:100000px;
+max-width:1900px;
+-webkit-transform-origin: center;
+-webkit-box-shadow: 5px 5px 5px #888;
+}
+.piclist:hover img{
+opacity:1;
+max-height:100000px;
+max-width:1900px;
+-webkit-transform-origin: center;
+-webkit-box-shadow: 5px 5px 5px #888;
+}
+.piclist li img{
+opacity:0.1;
+max-height:32px;
+max-width:32px;
+-webkit-box-shadow: 3px 3px 3px #000000;
+-moz-box-shadow: 3px 3px 3px #000000;
+box-shadow: 3px 3px 3px #000000;
+-webkit-transition: all 1s ease-in-out;
+}
+
+ 
+/*广告*/
+#pl_content_pullylist{display:none !important;}
+/*不显示视频缩略图*/
+li[action-type="feed_list_media_video"]{display:none !important;}
+ 
+/*popup 用*/
+#backgroundPopup{  
+display:none;  
+position:fixed;  
+height:100%;  
+width:100%;  
+top:0;  
+left:0;  
+background:#000000;  
+border:1px solid #cecece;  
+z-index:1 !important;  
+}  
+#imgback{
+display:none; 
+z-index:2;
+position:fixed;  
+height:100%;  
+width:100%;  
+top:0;  
+left:0;  
+ 
+ 
+}
+#largeimage{
+max-height:900px;
+}
+#abc{
+ 
+display:none;  
+position:relative;
+top:50%;
+left:50%;
+ 
+ 
+z-index:2 !important;  
+ 
+}
+ 
+#largeimg2{
+z-index:-1;
+visibility:hidden;
+}
+ 
+ 
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+	border: 4px solid #888;
+	margin:-4px;	/* Set this to minus the border thickness. */
+	background-color:#fff;	
+	cursor:move;		
+}
+ 
+/* This is for the title text. */
+.cloud-zoom-title {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute !important;
+	background-color:#000;
+	color:#fff;
+	padding:3px;
+	width:100%;
+	text-align:center;	
+	font-weight:bold;
+	font-size:10px;
+	top:0px;
+}
+ 
+/* This is the zoom window. */
+.cloud-zoom-big {
+	border:4px solid #ccc;
+	overflow:hidden;
+}
+ 
+/* This is the loading message. */
+.cloud-zoom-loading {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+position:absolute !important;
+	color:white;	
+	background:#222;
+	padding:3px;
+	border:1px solid #000;
+}
+
