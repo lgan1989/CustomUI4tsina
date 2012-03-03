@@ -1,0 +1,28 @@
+== Description ==
+These two scripts are used for achieving clean UI without ads and other elements which author think are useless.
+They have been tested on the latest version of Chrome.
+
+== Installation ==
+Install two Chrome extensions:
+1.Stylish
+2.Tampermonkey
+
+style.css is for Stylish, and script.js is for Tampermonkey.
+
+
+== Changelog ==
+
+= 0.3 =
+1. Fix bugs caused by the modification of css file of weibo.com.
+2. Disable the "mood".
+
+= 0.2 =
+1. Improve the display of large pictures to make them fit the screen resolution.
+
+= 0.1 =
+1. Remove all ads and a lot of useless elements.
+2. Add round corners.
+3. Add custom caption for the post box.
+
+== Usage ==
+Any one can use the codes for any purpose for free and are welcomed to give feedbacks.
