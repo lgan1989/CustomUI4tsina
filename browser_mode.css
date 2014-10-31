@@ -1,0 +1,87 @@
+#v6_pl_rightmod_ads35{
+	display:none;
+}
+#v6_pl_rightmod_ads36{
+	display:none;
+}
+#v6_pl_content_biztips{
+	display:none;
+}
+#v6_pl_rightmod_recominfo , .WB_right_module{
+	display:none;
+}
+#v6_pl_rightmod_updatev6{
+	display:none;
+}
+#WB_webim{
+	display:none;
+}
+.WB_main_l{
+	position:absolute;
+  	left:0px;
+}
+#v6_pl_leftnav_group{
+	display:none;
+}
+#plc_main{
+	position:absolute;
+  	left:30px;
+  	width:1000px;
+}
+#plc_bot{
+	display:none;
+}
+#v6_pl_ad_bottomtip{
+	display:none;
+}
+.WB_frame{
+	background:none;
+}
+#v6_pl_rightmod_myinfo{
+	display:none;
+}
+
+#v6_pl_content_setskin{
+	display:none;
+}
+body{
+	background:#ecf0f1;
+}
+#v6_pl_content_publishertop{
+	display:none;
+}
+.WB_tab_a{
+	display:none;
+}
+#v6_pl_content_homefeed{
+	 width:1850px;
+  	-webkit-column-count: 3;
+	-webkit-column-gap: 15px;
+	-webkit-column-fill: auto;
+	-moz-column-count: 3;
+	-moz-column-gap: 15px;
+	-moz-column-fill: auto;
+	column-count: 3;
+	column-gap: 15px;
+	column-fill: auto;
+}
+.WB_feed_detail{
+    -webkit-column-count: 1;
+}
+.WB_cardwrap{
+	width:600px;
+	float:left;
+  	position:relative;
+
+  -webkit-column-break-inside: avoid;
+
+}
+.W_tips{
+	display:none;
+}
+.WB_feed_together{
+	display:none;
+}
+.PCD_mplayer{
+	display:none;
+}
